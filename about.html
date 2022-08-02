@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   
+</head>
+<body>
+    <div class="banner">
+        <section class="navtabs">
+            <img src="logo.jpg" alt="sanwad">
+            <nav>
+                <div class="navtabs_link" id="navlinks">
+                
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="project.html">project</a></li>
+                        <li><a href="contact.html">contact us</a></li>                        
+                    </ul>
+                
+                </div>
+                   <i class="fa-solid fa-bars" onclick="showMenu()"></i> 
+            </nav>
+                
+            
+        </section>
+        <div class="text_slogan">
+            <h1>caring.helping.changing</h1><br>
+            volunteering to help the needed and making someone's day better.<br> <br> <br>
+            <a href="#" class="button"> start helping</a>
+            </div>
+        </div>
+        <!-- javascript for toggle menu-->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showMenu(){
+                navlinks.style.right ="0";
+            }
+            function hideMenu(){
+                navlinks.style.right="-200px";
+            }
+        </script>
+
+        <section class="about_section">
+            <h1>our programs</h1>
+            <div class="about_div">
+                
+                <div class="about">
+                    <h2>community food bank</h2>
+                    <p>food justice is an important part of cummunity justice.We take donations from local businesses and use them to fight hunger.
+                        Help us connect with doners and people in need.
+                    </p>
+                </div>
+                <div class="about">
+                    <h2>volunteers service sundays</h2>
+                    <p>every sunday we mobalize our teams of volunteers to make real diffrence. Join us and see what can be accomplished when you get an impassioned 
+                        team to focus on change
+                    </p>
+                </div>
+                <div class="about">
+                    <h2>community connection</h2>
+                    <p>
+                        our community is full of people who want to help.We work to help to people providing services with the people who need them.
+                        Come connect with eople in new ways.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about_banner_end">
+            <div class="about_end"></div>
+        </section>
+
+
+</body>
+</html>

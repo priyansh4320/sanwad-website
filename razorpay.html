@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="razorpay.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="banner">
+        <section class="navtabs">
+            <img src="logo.jpg" alt="sanwad">
+            <nav>
+                <div class="navtabs_link" id="navlinks">
+                
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">project</a></li>
+                        <li><a href="#">profile</a></li>                        
+                    </ul>
+                
+                </div>
+                   <i class="fa-solid fa-bars" onclick="showMenu()"></i> 
+            </nav>
+                
+            
+        </section>
+        
+        <div class="text_slogan">
+        <h1>caring.helping.changing</h1><br>
+        volunteering to help the needed and making someone's day better.<br> <br> <br>
+        <a href="#" class="button"> start helping</a>
+        </div>
+    </div>
+    <!-- javascript for toggle menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right ="0";
+        }
+        function hideMenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+
+    <section class="activity">
+        <h1>our activity</h1>
+        <p>acitivities that we do</p>
+        <div class="our_activity">
+            <div class="act"><h2>fundraising</h2>  </div>
+            <div class="act"><h2>volunteering</h2>  </div>
+            <div class="act"><h2>help & support</h2> </div>
+        </div>
+    </section>
+
+    <section class="information">
+        <div class="info_group">
+            <div class="info">
+                <img src="team.jpg" alt="img" class="images">
+                <h2> our team</h2>
+                <p>Our amazing team of regulars and part-time volunteers are committed to helping others.
+                 We take our convictions and turn them into action. Think you would be a good fit? Get in touch for more information!</p>
+            </div>
+            <div class="info">
+                <img src="history.jpg" alt="img" class="images">
+                <h2> our history</h2>
+                <p>Seeing a need for energetic, nonprofit work in this area, we formed our organization to provide sensible solutions.
+                 We've consistently grown since then, all thanks to the helping hands of this amazing community!</p>
+            </div>
+            <div class="info">
+                <img src="mission.jpg" alt="img" class="images">
+                <h2> our mission</h2>
+                <p>We focus on making the maximum positive effort for our community. 
+                 Our members and volunteers provide the momentum that helps us affect change.
+                 Using data driven models, we provide solutions that make a long-lasting difference.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="donations">
+        <h1>help our cause</h1>
+        <div class="donate_group">
+            <div class="left_don">
+                <img src="https://images.pexels.com/photos/3381571/pexels-photo-3381571.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image">
+                <div>
+                    <p>
+                        <h2>help them improve their quality of education.</h2>
+                        a fundraising project , that aims towards improving the quality of education of children across jalgaon district.
+                        <br> help these kids by donating  a small amount.
+                        <br><br><br><a href="donate.html" class="left_don_btn">donate</a>
+                    </p> 
+                </div>   
+            </div>
+            
+            
+            <div class="left_don">
+                <img src="https://media.istockphoto.com/photos/homeless-puppy-dog-sitting-alone-in-the-middle-of-the-street-picture-id944376422?k=20&m=944376422&s=612x612&w=0&h=l16MMyUG1mA3CYB6hrg-fx1MudFT2jjROrTezfinA3U=" alt="image">
+                <div>
+                    <p>
+                        <h2>strays deserve our kindness</h2>
+                        there are lots of strays in india that suffer from living in poor conditions which cause problems for people as well as strays themselves
+                        <br> your donation will help us arrange proper shelter services for these starys for their wellfare.
+                        <br><br> <br><a href="donate.html" class="left_don_btn">donate</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="left_don">
+                <img src="https://static.toiimg.com/photo/imgsize-346299,msid-75153477/75153477.jpg" alt="image">
+                <div>
+                    <p>
+                        <h2>old age homes, orphanages battle anxiety, resource crunch</h2>
+                        old age homes/orphanages have lot of old people that suff from loneliness, anxiety and resource crunch as well.
+                        <br> your donation will help us to host various events for these people like good food supply, entertaining cultural programs and many more... 
+                        <br><br><br><a href="donate.html" class="left_don_btn">donate</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section class="some_pic">
+        <h1>some picture</h1>
+        <p>these are some picture of recent events</p>
+        <div class="container">
+            <div class="contain" id="contain1">
+                <img src="images/1.jpg" alt="" >
+                <img src="images/2.jpg" alt="">
+                <img src="images/3.jpg" alt="">
+            </div>
+            <div class="contain" id="contain2">
+                <img src="images/4.jpg" alt="">
+                <img src="images/5.jpg" alt="" >
+                <img src="images/6.jpg" alt="">
+            </div>
+            <div class="contain" id="contain3">
+                <img src="images/7.jpg" alt="" >
+                <img src="images/8.jpg" alt="">
+                <img src="images/9.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="submit_mail">
+        <h1>stay in touch with us!</h1>
+        <p>learn more about our events, fundraisers and more...</p>
+        <div class="submit">
+            <textarea name="enter_mail" id="" cols="30" rows="10"></textarea>
+            <a href="#">submit</a>
+        </div>
+    </section>
+
+    <section class="bottom_banner"></section>
+</body>
+</html>
